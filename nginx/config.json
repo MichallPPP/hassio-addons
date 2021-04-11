@@ -1,0 +1,18 @@
+{
+  "name": "NGINX",
+  "version": "0.0.2",
+  "slug": "nginx",
+  "description": "An SSL/TLS proxy",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "ports": {
+    "80/tcp": null,
+    "443/tcp": 443
+  },
+  "map": ["ssl", "config:rw"],
+  "options": {
+    "conf": "/config/nginx.conf"
+    },
+  "schema": {
+    "conf": "str"
+  }
+}
