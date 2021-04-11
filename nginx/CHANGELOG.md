@@ -1,5 +1,5 @@
 # Changelog
 
-## 0.1
+## 0.3
 
-- Test Release
+- Updated docs
