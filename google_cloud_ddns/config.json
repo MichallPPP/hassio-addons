@@ -2,6 +2,7 @@
     "name": "Google Cloud DDNS",
     "version": "1.0.0",
     "slug": "google_cloud_ddns",
+    "url": "https://github.com/MichallPPP/hassio-addons/tree/master/google_cloud_ddns",
     "description": "Dynamic DNS using Google Cloud Platform",
     "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
     "startup": "application",
