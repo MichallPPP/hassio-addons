@@ -1,0 +1,24 @@
+{
+    "name": "Google Cloud DDNS",
+    "version": "1.0.0",
+    "slug": "google_cloud_ddns",
+    "description": "Dynamic DNS using Google Cloud Platform",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "startup": "application",
+    "boot": "auto",
+    "map": ["ssl"],
+    "options": {
+      "service_account_path": "/ssl/googleDDNS.json",
+      "project_name": "gcp-project-name",
+      "zone": "example",
+      "resource_record_set": "example.net.",
+      "ttl": 300
+    },
+    "schema": {
+      "service_account_path": "str",
+      "project_name": "str",
+      "zone": "str",
+      "resource_record_set": "str",
+      "ttl": "int"
+    }
+  }

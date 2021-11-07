@@ -5,10 +5,6 @@ Vanilla Nginx containerised for Home Assistant. Simply point nginx to your own c
 
 1. [Add my Hass.io add-ons repository][repository] to your Hass.io instance.
 1. Install this add-on.
-1. Click the `Save` button to store your configuration.
-1. Start the add-on.
-1. Check the logs of the add-on to see if everything went well.
-1. Carefully configure the add-on to your preferences, see the official documentation for for that.
 
 ## How to use
 Create your own .conf file or customize the default one that's created after first run
