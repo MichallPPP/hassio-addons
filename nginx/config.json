@@ -1,19 +1,19 @@
 {
-  "name": "NGINX",
-  "version": "0.0.4",
-  "slug": "nginx",
-  "url": "https://github.com/MichallPPP/hassio-addons/tree/master/nginx",
-  "description": "An SSL/TLS proxy",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "ports": {
-    "80/tcp": null,
-    "443/tcp": 443
-  },
-  "map": ["ssl", "config:rw"],
-  "options": {
-    "conf": "/config/nginx.conf"
+    "name": "NGINX",
+    "version": "0.0.5",
+    "slug": "nginx",
+    "url": "https://github.com/MichallPPP/hassio-addons/tree/master/nginx",
+    "description": "An SSL/TLS proxy",
+    "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+    "ports": {
+        "80/tcp": null,
+        "443/tcp": 443
     },
-  "schema": {
-    "conf": "str"
-  }
+    "map": ["ssl", "config:rw", "media"],
+    "options": {
+        "conf": "/config/nginx.conf"
+    },
+    "schema": {
+        "conf": "str"
+    }
 }
