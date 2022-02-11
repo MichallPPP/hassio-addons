@@ -13,7 +13,7 @@ def update_dns(ip, zone, resource_record_set, ttl, project_name):
     dns_ip = None
     record_to_remove = None
     for record in records:
-        if record.record_type == 'A':
+        if record.record_type == 'A' and record.name == resource_record_set:
             dns_ip = record.rrdatas[0]
             print(datetime.now(), 'DNS IP: ' + dns_ip, file=sys.stderr)
             record_to_remove = record
