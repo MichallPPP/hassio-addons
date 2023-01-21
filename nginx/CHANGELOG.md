@@ -1,5 +1,7 @@
 # Changelog
 
+## 0.0.6
+- Bump nginx to 1.23.3
 ## 0.0.5
 - Mount media share
 ## 0.0.4
